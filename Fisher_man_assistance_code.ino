@@ -12,12 +12,12 @@
 #include <ArduinoJson.h>
 
 // --- 1. USER CREDENTIALS ---
-const char* ssid = "sai";
-const char* password = "nopassword";
-const char* BOTtoken = "8650174024:AAGqTG_Pikdi3WiFuhc5ibsV_E3rEtC1W40"; 
-const char* CHAT_ID = "1647489238";             
-unsigned long myChannelNumber = 3313382;
-const char * myWriteAPIKey = "IOFHXX8KAVO5NH21";
+const char* ssid = "ssid";
+const char* password = "wifi_password";
+const char* BOTtoken = "BOTtoken"; 
+const char* CHAT_ID = "CHAT_ID";             
+unsigned long myChannelNumber = "myChannelNumbe";
+const char * myWriteAPIKey = "myWriteAPIKey";
 
 // --- 2. PIN DEFINITIONS ---
 #define ONE_WIRE_BUS 27    
